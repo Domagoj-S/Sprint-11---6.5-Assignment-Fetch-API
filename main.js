@@ -1,0 +1,2 @@
+fetch("https://api.openweathermap.org/data/2.5/weather?q=Zagreb&units=metric&APPID=381b99505b2ffef99a31e0cd914ea7a1")
+    .then((response) => response.json()).then((data) => console.log(data)).catch((err) => console.log(err));
